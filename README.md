@@ -108,3 +108,8 @@ Server - defaultne štartuje na porte 3001
 	cd server
 	npm run start
 ```
+
+## 4.API
+
+Každý serverový dopyt pomocou graphql je odtestovateľný na serverovom endpointe /graphiql
+Toto nie je klasický REST API, ale grafový API - správa sa trochu inak. Typová dokumentácia je na pravom boku. 
