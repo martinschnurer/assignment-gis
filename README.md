@@ -21,6 +21,8 @@ Ak nejaký komponent zmení stav storu, redux automaticky notifikuje všetky kom
 **Jednoduché vysvetlenie: komponent volá akcie, reducer mení podľa akcie stav storu, store notifikuje všetkých, ktorý na ňom počúvajú - resp. počúvajú a sú závislý len na konkrétnej časti storu.**
 
 
+![react redux](https://cdn-images-1.medium.com/max/1600/1*2FrT8oMXswVWiVEfBCXlAQ.png)
+
 
 ***Server*** bol skonštruovaný pomocou jazyku javascript v node.js vo frameworku *Express*
 
@@ -47,14 +49,6 @@ nastavím hlavný pointer, tzv. *MainMarker*. Pravým tlačidlom myši vieme nas
 
 ![Výzor stránky (Frontend)](app.png)
 
-***TODO***:
-
-- Rozlozenie stranky
-
-- MainPointer
-- SecondaryPointer
-- BUttons
-- Graphql
 
 # 2. Dopyty
 
@@ -82,6 +76,8 @@ Potom sa na mape zobrazí:
 - zastávka na ktorej má vystúpiť prvá osoba
 - zastávka na ktorej má vystúpiť druhá osoba
 - miesto stretnutia
+
+Dopyt je prispôsobený tak, aby obaja prešli čo najmenšiu vzdialenosť k zastávkam - nie je zaručené, že sa taká zastávka nájde -> prvý nebude chcieť ísť kilometer peši na zastávku, z ktorej nejaká linka ide priamo k miestu stretnutia. Tento dopyt nemusí vrátiť výsledok.
 
 ![Tretí dopyt s možnosťou rozkliknutia](third_query.png)
 
