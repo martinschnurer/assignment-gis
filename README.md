@@ -87,3 +87,24 @@ Jednoduchý ale účinný dopyt, pokial chceme zistiť, kam a po akých zastávk
 V hornom rohu na pravo v aplikácií je tabuľka so všetkými linkami. Po kliknuti na jednu z nich sa vykreslí cesta.
 
 ![Štvrtý dopyt s možnosťou rozkliknutia](fourth_query.png)
+
+## 3. Deployment
+
+Client - defaultne štartuje na porte 3000
+
+ - pre development 
+ ```bash
+ 	cd client
+ 	npm run start
+ ```
+ - pre spustenie build verzie
+ ```bash
+ 	cd client
+ 	serve -s build
+ ```
+
+Server - defaultne štartuje na porte 3001
+```bash
+	cd server
+	npm run start
+```
