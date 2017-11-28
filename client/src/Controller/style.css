@@ -1,0 +1,9 @@
+.results-table tbody tr:hover{
+	cursor: pointer;
+	background-color: #eee;
+}
+
+.scrollable {
+	max-height: 200px;
+	overflow-y: scroll;
+}

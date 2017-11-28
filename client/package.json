@@ -1,0 +1,29 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "fetch-polyfill": "^0.8.2",
+    "google-maps": "^3.2.1",
+    "material-ui": "^0.19.4",
+    "pg": "^7.3.0",
+    "pg-hstore": "^2.3.2",
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^16.0.0",
+    "react-google-maps": "^9.2.2",
+    "react-rangeslider": "^2.2.0",
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.0.16",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.2.1",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "export NODE_PATH=. && react-scripts start",
+    "build": "export NODE_PATH=. && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
